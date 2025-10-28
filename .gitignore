@@ -1,0 +1,73 @@
+# Keep project definition and core folders
+!/*.uproject
+!/Config/**
+!/Source/**
+!/Plugins/**
+!/Content/**/*.uasset
+!/Content/**/*.umap
+!/RawContent/**
+
+# Ignore build and generated data
+/Binaries/
+/Build/
+/DerivedDataCache/
+/Intermediate/
+/Saved/
+
+# Build artifacts
+*.pdb
+*.obj
+*.exp
+*.lib
+*.dll
+*.exe
+*.so
+*.app
+*.apk
+*.ipa
+*.pak
+*.zip
+
+# IDE files
+<<<<<<< HEAD
+=======
+.vs/
+>>>>>>> dbc971d (Add C++ Unreal Engine .gitignore)
+.vscode/
+.idea/
+*.sln
+*.vcxproj*
+*.user
+*.suo
+*.sln.iml
+*.code-workspace
+
+<<<<<<< HEAD
+=======
+
+>>>>>>> dbc971d (Add C++ Unreal Engine .gitignore)
+# OS junk
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+._*
+*~
+.directory
+
+# Temp and logs
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.un~
+
+# Unreal cooked & build artifacts
+Content/Paks/
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
